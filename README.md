@@ -14,7 +14,7 @@
 - Бурбело Сергій
   - telegram: @sserega9
 - Коптюх Назар
-  - telegram: @@Krekehood
+  - telegram: @Krekehood
 
 
 
