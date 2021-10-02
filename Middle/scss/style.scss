@@ -1,0 +1,206 @@
+/* .block селектор класа
+div селектор типа
+div.block селектор типа и класа
+padding - внутрішній
+margin - зовнішній  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none}
+  a:focus,a:active{outline:none}
+  nav,footer,header,aside{display: block;}
+  html,body{
+    height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  }
+  input,
+  button,
+  textarea {
+  font-family: inherit;
+  }
+  
+  
+  input::-ms-clear {
+  display: none;
+  }
+  button {
+  cursor: pointer;
+  }
+  button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+  }
+  a,
+  a:visited {
+  text-decoration: none;
+  }
+  a:hover {
+  text-decoration: none;
+  }
+  ul li {
+  list-style: none;
+  }
+  img {
+  vertical-align: top;
+  }
+  h1,h2,h3,h4,h5,h6 {
+  font-size: inherit;
+  font-weight: 400;
+  }
+ 
+body{
+    background-color: #333333;
+
+}
+.container {
+  max-width: 1185px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  @media (max-width:1785px){
+    max-width: 970px;
+  }
+  @media (max-width:992px){
+      max-width: 750px;
+  }
+  @media (max-width:767px){
+      max-width: none;
+  }
+}
+
+.about {
+}
+.aboutheader {
+  border: 1px solid green;
+
+  color: white;
+  margin: 64px auto;
+  text-align: center;
+  font-family: "Open Sans Condensed";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  span{
+    color: #D1A954;
+  }
+  
+}
+
+.description {
+  border: 1px solid green;
+  margin: 36px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @media(max-width:992px){
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+.description__block1 {
+  border: 1px solid green;
+
+  flex: 0 1 38%;
+  padding: 0 30px 0 0;
+  @media(max-width:992px){
+    max-width: 100%;
+    text-align: center;
+  }
+}
+
+.block1-subtitle {
+  border: 1px solid green;
+
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 40px 0;
+  
+
+}
+.block1-text {
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  
+}
+
+.description__block2 {
+  border: 1px solid green;
+  
+  padding: 0 95px 0 0;
+  
+}
+.block2-subtitle {
+  border: 1px solid green;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 0 40px 0;
+}
+
+.block2-vectorpicture {
+  border: 1px solid green;
+  max-width: 69px;
+  img{
+    max-width: 100%;
+  }
+}
+
+.block2-text {
+  border: 1px solid green;
+
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  span{
+    color: #D1A954;
+  }
+  margin: 10px 0 0 0;
+ 
+}
+
+.description__block3 {
+  border: 1px solid green;
+
+  flex: 0 1 30%;
+  position: relative;
+  @media (max-width:1785px){
+    max-width: 2000px;}
+}
+.block3-picture {
+  img{
+    max-width: 100%;
+  }
+  
+}
