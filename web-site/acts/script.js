@@ -8,11 +8,14 @@ burgerButton.addEventListener("click", function () {
     burgerButton.style.position = "fixed";
     burgerMenu.style.opacity = "1";
     burgerMenu.style.zIndex = '100';
+    burgerMenu.style.width = '100%';
 
     burgerButtonFirst.style.backgroundColor = "green";
   } else {
     burgerMenu.style.opacity = "0";
     burgerMenu.style.zIndex = '-1';
+    burgerMenu.style.width = '0%';
+
 
     burgerButtonFirst.style.backgroundColor = "";
     burgerButton.style.position = "relative";
