@@ -148,10 +148,6 @@ let inputTel = document.querySelector(".form-content__input-tel");
 let inputEmail = document.querySelector(".form-content__input-email");
 
 inputName.addEventListener("keypress", (event) => {
-  if (!isNaN(event.target.value)) {
-    event.target.value = "";
-    alert("Введіть ім'я коректно!");
-  }
   event.target.value =
     event.target.value[0].toUpperCase() + event.target.value.slice(1);
 });
