@@ -3,7 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Великий театр</title>
+	<meta name="description" container="Національний академічний драматичний театр 'Всесвіт' імені Івана Всесвіту - театр в Києві, знаходиться за адресою: площа Івана Всесвіту, 3. Офіційний сайт театру, де ви зможете придмати квитки на наші вистави">
+	<meta name="keywords" content="Театр, театр, драма, драматичний, Іван Всесвіт, театр 'Всесвіт', Національний, національний, квитки, Київ, вистава">
+	<meta name="Author" content="Іван Всесвіт">
+	<meta name="Copyright" content="Іван Всесвіт">
+	<meta name="Address" content="Площа Івана Всесвіту 3">
+	<title>Театр "Всесвіт" ім. І.Всесвіта.</title>
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
 	<link rel="icon" href="img/favicon.png" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
@@ -13,62 +18,85 @@
 	<script src="https://kit.fontawesome.com/119243c392.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-	<header id="header" class="header">
-
+	<header class="header">
 		<div class="sidebar-social">
 			<h5 class="sidebar-social__title">
 				Контактна інформація
 			</h5>
 			<div class="social">
-				<ul class="social__list">
-					<li class="sosial__item-line">
-						<img src="header/images/line.svg">
+				<ul class="social-list">
+					<li class="sosial-list__item-line">
 					</li>
-					<li>
-						<a href="https://instagram.com">
+					<li class="sosial-list__item">
+						<a href="https://instagram.com" class="sosial-list__link">
 							<i class="fab fa-instagram"></i>
 						</a>
 					</li>
-					<li>
-						<a href="https://facebook.com">
+					<li class="sosial-list__item">
+						<a href="https://facebook.com" class="sosial-list__link">
 							<i class="fab fa-facebook-f"></i>
 						</a>
 					</li>
-					<li>
-						<a href="https://youtube.com">
+					<li class="sosial-list__item">
+						<a href="https://youtube.com" class="sosial-list__link">
 							<i class="fab fa-youtube"></i>
 						</a>
 					</li>
 				</ul>
 			</div>
-
+		</div>
+		<div class="burger__menu">
+			<ul class="menu_burger">
+				<li class="nav-menu__item">
+					<a href="index.html" class="nav-menu__link">
+						Головна
+					</a>
+				</li>
+				<li class="nav-menu__item"> 
+					<a href="about-theatre/index.html" class="nav-menu__link" >
+						Про театр
+					</a>
+				</li>
+				<li class="nav-menu__item">
+					<a href="acts/index.html" class="nav-menu__link">
+						Купити білети
+					</a>
+				</li>
+				<li class="nav-menu__item">
+					<a href="contacts/index.html" class="nav-menu__link">
+						Контакти
+					</a>
+				</li>
+				<li class="nav-menu__item">
+					<a href="tel:+380000000000" class="tel burger-tel">
+						+380 000 000 000
+					</a>
+				</li>
+			</ul>
 		</div>
 		<div class="container">
 			<div class="nav">
+				<div class="nav__burger">
+					<div class="first-burger"></div>
+				</div>
 				<ul class="menu">
-					<li>
-						<a href="#">
+					<li class="nav-menu__item">
+						<a href="index.html" class="nav-menu__link">
 							Головна
 						</a>
 					</li>
-					<li>
-						<a href="#">
+					<li class="nav-menu__item"> 
+						<a href="about-theatre/index.html" class="nav-menu__link" >
 							Про театр
 						</a>
 					</li>
-					<li>
-						<a href="#">
-							Наші постанови
-						</a>
-					</li>
-					<li>
-						<a href="#">
+					<li class="nav-menu__item">
+						<a href="acts/index.html" class="nav-menu__link">
 							Купити білети
 						</a>
 					</li>
-					<li>
-						<a href="#">
+					<li class="nav-menu__item">
+						<a href="contacts/index.html" class="nav-menu__link">
 							Контакти
 						</a>
 					</li>
@@ -77,18 +105,16 @@
 					+380 000 000 000
 				</a>
 			</div>
-
 			<div class="content">
 				<div class="poster">
-					<h1>
+					<h1 class="content-poster__title">
 						Театр всесвіт
 					</h1>
-					<p>
+					<p class="content-poster__suptitle">
 						Театр Всесвіт був заснований в 1920 році, але не в Києві, а у Вінниці. Заснували його кілька акторів із трупи Молодого театру і Нового Львівського театру, на чолі з Гнатом Юрою та Амвросієм Бучмою. Ці два колективи і стали "Новим Драматичним театром  ‘Всесвіт’ "
 					</p>
-					<a href="#" class="btn-poster">Афіша</a>
+					<a href="./acts/index.html" class="btn-poster">Афіша</a>
 				</div>
-
 				<div class="slider">
 						<article id="slider">
 								<input checked type="radio" name="slider" id="switch1">
@@ -99,11 +125,11 @@
 							<div id="slides">
 								<div id="overflow">
 									<div class="image">
-										<article><img src="header/images/banner1.png"></article>
-										<article><img src="header/images/banner1.png"></article>
-										<article><img src="header/images/banner1.png"></article>
-										<article><img src="header/images/banner1.png"></article>
-										<article><img src="header/images/banner1.png"></article>
+										<article><img src="header/images/banner1.png" alt="Баннер театральної вистави"></article>
+										<article><img src="header/images/banner1.png" alt="Баннер театральної вистави"></article>
+										<article><img src="header/images/banner1.png" alt="Баннер театральної вистави"></article>
+										<article><img src="header/images/banner1.png" alt="Баннер театральної вистави"></article>
+										<article><img src="header/images/banner1.png" alt="Баннер театральної вистави"></article>
 									</div>
 								</div>
 							</div>
@@ -114,13 +140,6 @@
 								<label for="switch4"></label>
 								<label for="switch5"></label>
 							</div>
-							<!-- <div id="active">
-								<label for="switch1"></label>
-								<label for="switch2"></label>
-								<label for="switch3"></label>
-								<label for="switch4"></label>
-								<label for="switch5"></label>
-							</div>-->						
 						</article>
 				</div>
 				 
@@ -129,7 +148,6 @@
 		</div>
 
 	</header>
-
 
 	<section class="main-content">
 	<div class="container">
@@ -143,13 +161,13 @@
 						<p class="block1-text">
 							 Офіційною датою початку роботи театру вважається 28 січня 1920 року. Тоді була показана постановка Володимира Винниченка "Гріх". У перший же сезон театр провів 23 прем'єри. Серед перших вистав були "Весілля Фігаро", "Молодість", "Цар Едіп", і інші постановки.
 
-							 На перших етапах розвитку театру, трупа багато гастролювала по містах і селах, в основному в центральній частині України. Відбувалося це за часів УНР, і одного разу Гнат Юра навіть виступив перед урядом, розповівши про те, що жоден театр не може існувати в таких умовах. Однак, любов до своєї справи була сильнішою, і трупа продовжила подорожувати. Після гастролей на Донбасі, театр отримав статус Державного та був переведений до Харкова, що був тоді столицею.
+							 На перших етапах розвитку театру, трупа багато гастролювала по містах і селах, в основному в центральній частині України. Однак, любов до своєї справи була сильнішою, і трупа продовжила подорожувати. 
 						</p>
 				  </div>
 				  <div class="description__block2">
 						<h3 class="block2-subtitle">Трішки про цифри</h3>
 						<div class="block2-vectorpicture">
-							 <img src="main-content-images/vectors/Chair1.png" alt="">
+							 <img src="main-content-images/vectors/Chair1.png" alt="Кількість місць у театрі">
 						</div>
 						<div class="block2-text">
 							 <span>1600</span> посадкових місць
@@ -157,7 +175,7 @@
 				  </div>
 				  <div class="description__block3">
 						<div class="block3-picture">
-							 <img src="main-content-images/images/Teatr0.png" alt="">
+							 <img src="main-content-images/images/Teatr0.png" alt="Фото театру">
 						</div>
 				  </div>
 			 </div>
@@ -176,12 +194,12 @@
 							 <div class="img-text-vertical">
 								  вересень 2021
 							 </div>
-							 <a href="#" class="button">
+							 <a href="act/second-act/index.html" class="button">
 								  <div class="button-image">
-										<img src="main-content-images/vectors/Lupa.svg" alt="">
+										<img src="main-content-images/vectors/Lupa.svg" alt="Векторна картинка">
 								  </div>
 							 </a>
-						  <img src="main-content-images/images/Theater1.png" alt=""></div>
+						  <img src="main-content-images/images/Theater1.png" alt="Фото театру"></div>
 						</div>
 					 <div class="swiper-slide">
 						<div class="image">
@@ -191,12 +209,12 @@
 							 <div class="img-text-vertical">
 								  грудень 2021
 							 </div>
-							 <a href="#" class="button">
+							 <a href="act/ninth-act/index.html" class="button">
 								  <div class="button-image">
-										<img src="main-content-images/vectors/Lupa.svg" alt="">
+										<img src="main-content-images/vectors/Lupa.svg" alt="Векторна картинка">
 								  </div>
 							 </a>
-						  <img src="main-content-images/images/Theater2.png" alt="">
+						  <img src="main-content-images/images/Theater2.png" alt="Фото театру">
 						</div>
 					 </div>
 					 <div class="swiper-slide">
@@ -207,7 +225,7 @@
 							 <div class="img-text-vertical">
 								  липень 2021
 							 </div>
-							 <a href="#" class="button">
+							 <a href="act/third-act/index.html" class="button">
 								  <div class="button-image">
 										<img src="main-content-images/vectors/Lupa.svg" alt="">
 								  </div>
@@ -223,7 +241,7 @@
 							 <div class="img-text-vertical">
 								  квітень 2021
 							 </div>
-							 <a href="#" class="button">
+							 <a href="act/sixth-act/index.html" class="button">
 								  <div class="button-image">
 										<img src="main-content-images/vectors/Lupa.svg" alt="">
 								  </div>
@@ -235,6 +253,80 @@
 			  </div>
 		</div>
   </div>
+</section>
+<section class="partners">
+	<div class="container">
+		<div class="partners-main">
+			<div class="partners-rate">
+				<div class="partners-rate__img">
+					<div class="partners-rate__years">
+						<div class="partners-rate__year">2019</div>
+						<div class="partners-rate__year">2020</div>
+						<div class="partners-rate__year">2021</div>
+					</div>
+					<div class="partners-rate__stars">
+						<div class="partners-rate__star"></div>
+						<div class="partners-rate__star"></div>
+						<div class="partners-rate__star"></div>
+						<div class="partners-rate__star"></div>
+						<div class="partners-rate__star"></div>
+					</div>
+					<div class="partners-rate__title">
+						Кращий театр<br>
+						на думку театральних<br>
+						критиків України
+					</div>
+				</div>
+			</div>
+			<div class="partners-list">
+				<div class="partners-list__title">
+					<span>партнери</span> театру
+				</div>
+					<div class="partners-list__images">
+						<div class="partners-list__image">festool</div>
+						<div class="partners-list__image">festool</div>
+						<div class="partners-list__image">festool</div>
+						<div class="partners-list__image">festool</div>
+						<div class="partners-list__image">festool</div>
+						<div class="partners-list__image">festool</div>
+					</div>
+			</div>
+			<div class="patron-form">
+						<div class="patron-form__title">
+							стати <span>меценатом</span>
+						</div>
+						<div class="patron-form__content">
+							<div class="patron-form__info">
+								<div class="patron-form__item">+380 000 000 000</div>
+								<div class="patron-form__item">+380 000 000 000</div>
+								<div class="patron-form__item">info@theater.ru</div>
+								<div class="patron-form__item">м.Київ</div>
+							</div>
+							<form action="" class="patron-form__inputs">
+								<div class="patron-form__inputs-left">
+									<input type="text" class="patron-form__input" placeholder="Ім'я">
+									<input type="text" class="patron-form__input" placeholder="Компанія"><br>
+									<input type="text" class="patron-form__input" placeholder="Телефон">
+									<input type="text" class="patron-form__input" placeholder="E-mail">
+								</div>
+								<div class="patron-form__inputs-right">
+									<input type="text" class="patron-form__input" placeholder="Повідомлення">
+								</div>
+								<div class="patron-form__button">
+									<button type="submit" value="">ВІДПРАВИТИ</ш>
+								</div>
+							</form>
+							<footer class="footer">
+								
+									<div class="footer-line"></div>
+									<div class="footer-content">(С) Всі права захищені. Театр. Всесвіт  2021</div>
+								
+							</footer>
+						</div>
+					
+			</div>
+		</div>
+	</div>
 </section>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="main-js/script.js"></script>
