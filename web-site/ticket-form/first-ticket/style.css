@@ -285,7 +285,16 @@
   outline: none;
   outline-offset: none;
 }
-
+.form-ticket__button{
+  font-family: "Open Sans Condensed";
+background-color: #d1a954;
+height: 80px;
+width: 20%;
+color: #fff;
+text-transform: uppercase;
+border: none;
+font-size: 30px;
+}
 .form-content__suptitle {
   color: red;
   margin-bottom: 10px;
