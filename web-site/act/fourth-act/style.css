@@ -86,7 +86,7 @@ header a {
   font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 25px;
   padding-bottom: 2px;
 }
@@ -102,7 +102,7 @@ header a {
 
 .tel {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: auto;
   letter-spacing: 0.1em;
   padding-bottom: 2px;

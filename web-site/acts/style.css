@@ -610,6 +610,9 @@ header a {
   .burger-menu{
     opacity: 1;
   }
+  .act__title{
+    font-size: 20px;
+  }
 }
 @media (max-width: 400px) {
   .header {
